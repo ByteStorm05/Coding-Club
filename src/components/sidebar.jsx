@@ -48,7 +48,7 @@ const Sidebar = () => {
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img
               src="/logo.png"
-              alt="GenAi Logo"
+              alt="CC Logo"
               className="h-12 w-auto object-contain"
             />
           </a>
@@ -57,7 +57,7 @@ const Sidebar = () => {
           </button>
         </div>
         <nav className="p-3 flex flex-col space-y-1">
-          <a href="#" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
+          <a href="#features" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
             <Home className="size-4" />
             Why Us ? 
           </a>
@@ -74,28 +74,28 @@ const Sidebar = () => {
             </button>
             {openAccordion === "users" && (
               <div className="pl-6 space-y-1">
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">1. C++ Basics</a>
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">2. Data Structures And Algorithms</a>
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">3. Advanced Data Structures And Algorithms</a>
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">4. Python Basics</a>   
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">5. Machine Learning</a>
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">6. Java: Core + Advanced</a>
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">7. Full Stack Development</a>
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">8. Aptitude + Communication</a>
-                <a href="#" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">9. Computer Science Fundamentals</a>
+                <a href="#cpp" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">1. C++ Basics</a>
+                <a href="#dsa" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">2. Data Structures And Algorithms</a>
+                <a href="#adsa" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">3. Advanced Data Structures And Algorithms</a>
+                <a href="#py" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">4. Python Basics</a>   
+                <a href="#ml" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">5. Machine Learning</a>
+                <a href="#java" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">6. Java: Core + Advanced</a>
+                <a href="#mern" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">7. Full Stack Development</a>
+                <a href="#apt" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">8. Aptitude + Communication</a>
+                <a href="#cs" className="block py-2 px-2.5 text-sm text-gray-800 hover:bg-gray-100">9. Computer Science Fundamentals</a>
               </div>
             )}
           </div>
          
-          <a href="#" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
+          <a href="#results" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
             <CircleCheckBig className="size-4" />
             Our Results
           </a>
-          <a href="#" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
+          <a href="#team" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
             <Users className="size-4" />
             Meet the Team!
           </a>
-          <a href="#" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
+          <a href="#faq" className="flex items-center gap-x-3.5 py-2 px-2.5 text-gray-800 rounded-lg hover:bg-gray-100">
             <CircleHelp className="size-4" />
             FAQ's
           </a>

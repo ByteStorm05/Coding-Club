@@ -63,7 +63,7 @@ const team = () => {
       <section className="py-14 mt-[-100px]">
           <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="mb-14 text-center">
-          <span className="py-1 px-4 bg-gray-200 rounded-full text-xs font-medium text-black text-center">
+          <span id="team" className="py-1 px-4 bg-gray-200 rounded-full text-xs font-medium text-black text-center">
             Team
           </span>
           <h2 className="text-4xl text-center font-bold text-gray-900 py-5">

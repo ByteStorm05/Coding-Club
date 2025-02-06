@@ -97,7 +97,7 @@
 
 // export default HeroSection;
 
-import DemoModal from "@/Modal2";
+import DemoModal from "@/components/Modal2";
 import React from "react";
 
 const HeroSection = () => {

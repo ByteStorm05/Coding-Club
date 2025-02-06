@@ -104,7 +104,7 @@
 
 
 
-import DemoModal from "@/Modal2";
+import DemoModal from "@/components/Modal2";
 import Modal from "@/components/Modal";
 import Sidebar from "@/components/sidebar";
 import { Outlet } from "react-router-dom";

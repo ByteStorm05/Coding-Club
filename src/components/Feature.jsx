@@ -70,7 +70,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-6">
+    <section id="features" className="py-6">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-14 text-center">
           <span className="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">

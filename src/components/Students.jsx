@@ -32,7 +32,7 @@ const PhotoGallery = () => {
     <div className="p-6 bg-white rounded-lg shadow-lg mt-[-100px]">
 
         <div className="mb-14 text-center">
-          <span className="py-1 px-4 bg-green-100 rounded-full text-xs font-medium text-green-800 text-center">
+          <span  id= "results" className="py-1 px-4 bg-green-100 rounded-full text-xs font-medium text-green-800 text-center">
             Results
           </span>
           <h2 className="text-4xl text-center font-bold text-gray-900 py-5">
