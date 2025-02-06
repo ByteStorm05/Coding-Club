@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text */
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+.animate-marquee2 {
+  display: flex;
+  animation: marquee2 10s linear infinite;
+}
+
