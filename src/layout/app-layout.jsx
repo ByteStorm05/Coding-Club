@@ -104,6 +104,8 @@
 
 
 
+import DemoModal from "@/Modal2";
+import Modal from "@/components/Modal";
 import Sidebar from "@/components/sidebar";
 import { Outlet } from "react-router-dom";
 
@@ -126,16 +128,16 @@ const AppLayout = () => {
   {/* Right Side - Buttons */}
   <div className="flex gap-2">
     <button 
-      className="py-2 px-3 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 
+      className=" px-3 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 
                  transition-all duration-800 hover:scale-105 hover:shadow-lg animate-pulse"
     >
-      Buy Now
+      <Modal/>
     </button>
     <button 
       className="py-2 px-3 bg-gray-100 text-gray-800 text-sm font-medium rounded-lg
-                 hover:bg-gray-200 transition-all duration-300"
+                 hover:bg-gray-200 transition-all duration-300 outline-dotted"
     >
-      Request Demo
+      <DemoModal/>
     </button>
   </div>
 </div>

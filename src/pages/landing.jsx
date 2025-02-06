@@ -1,3 +1,4 @@
+import Modal from '@/components/Modal';
 import CompanyMarquee from '@/components/CompanyMarquee';
 import Courses from '@/components/Courses';
 import Feature from '@/components/Feature';
@@ -17,6 +18,7 @@ const LandingPage = () => {
       <PhotoGallery/>
       <Team/>
       <FAQComponent/>
+      <Modal/>
     </div>
   );
 };
