@@ -38,7 +38,7 @@ const Sidebar = () => {
       <div>
       {isOpen && (
     <div
-      className="fixed inset-0 bg-black opacity-50 z-50 lg:hidden"
+       className="fixed inset-0 bg-black opacity-50 z-50 lg:hidden"
       onClick={toggleSidebar} // Clicking outside closes the sidebar
     />
   )}

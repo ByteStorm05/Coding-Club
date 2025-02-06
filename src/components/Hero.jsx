@@ -97,6 +97,7 @@
 
 // export default HeroSection;
 
+import DemoModal from "@/Modal2";
 import React from "react";
 
 const HeroSection = () => {
@@ -133,7 +134,7 @@ const HeroSection = () => {
 
           <div className="mt-7 flex flex-col sm:flex-row justify-center gap-3 w-full">
             <a
-              href="/courses"
+              href="#courses"
               className="py-3 px-5 inline-flex justify-center items-center gap-x-2 text-base font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700"
             >
               Explore Courses!
@@ -156,7 +157,7 @@ const HeroSection = () => {
               className="py-3 px-5 inline-flex justify-center items-center gap-x-2 text-base font-semibold rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50"
               href="#"
             >
-              Contact Us
+              <DemoModal/>
             </a>
           </div>
 

@@ -44,3 +44,6 @@ html {
   animation: marquee2 10s linear infinite;
 }
 
+html {
+  scroll-behavior: smooth;
+}

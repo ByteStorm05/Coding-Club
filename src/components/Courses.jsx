@@ -542,7 +542,7 @@ const Courses = () => {
 
   return (
     <div className="px-8 sm:px-16 mt-[-50px]">
-       <div className="mb-14 text-center">
+       <div id="courses"className="mb-14 text-center">
           <span className="py-1 px-4 bg-red-100 rounded-full text-xs font-medium text-red-600 text-center">
             Courses
           </span>
