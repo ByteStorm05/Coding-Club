@@ -378,7 +378,7 @@ const Courses = () => {
       heading: "CHECKPOINT 3: Full Stack Project",
       badge: "Milestone",
       duration: "Assessment",
-      description: "Complete Twitter Clone project"
+      description: "Complete Twitter Clone project, Bollywood Data Collector and various mini projects!"
     },
     {
       id:'apt',
