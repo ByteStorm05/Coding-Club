@@ -35,6 +35,13 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       {/* <div className={`fixed inset-y-0 left-0 w-[260px] h-full bg-white dark:bg-neutral-800 shadow-lg transition-transform  ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 lg:block z-50`}> */}
+      <div>
+      {isOpen && (
+    <div
+      className="fixed inset-0 bg-black opacity-50 z-50 lg:hidden"
+      onClick={toggleSidebar} // Clicking outside closes the sidebar
+    />
+  )}
       <div className={`fixed inset-y-0 left-0 w-[260px] h-full bg-white dark:bg-neutral-800 shadow-lg transition-transform ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 lg:block z-50 overflow-y-auto`}>
 
         <div className="px-6 pt-4 flex items-center justify-between ">
@@ -94,6 +101,7 @@ const Sidebar = () => {
           </a>
         </nav>
        <BuyCourse/>
+      </div>
       </div>
     </>
   );
