@@ -269,11 +269,11 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="max-w-[85rem] mx-auto px-4 sm:px-6 min-[1496px]:px-8 pt-5">
-      <div className="grid grid-cols-1 min-[1496px]:grid-cols-2 items-center gap-8">
+    <div className="max-w-[85rem] mx-auto px-4 sm:px-6 min-[1396px]:px-8 pt-5">
+      <div className="grid grid-cols-1 min-[1396px]:grid-cols-2 items-center gap-8">
         {/* Left Column - Text Content */}
-        <div className="text-center min-[1496px]:text-left">
-          <h1 className="block text-2xl sm:text-3xl min-[1496px]:text-4xl font-bold text-gray-800 dark:text-white">
+        <div className="text-center min-[1396px]:text-left">
+          <h1 className="block text-2xl sm:text-3xl min-[1396px]:text-4xl font-bold text-gray-800 dark:text-white">
             Crack High-Paying Jobs & Internships with{" "}
             <span className="text-blue-600">Coding Mafia</span> (Online)!
           </h1>
@@ -281,7 +281,7 @@ const HeroSection = () => {
             <p className="text-lg sm:text-xl font-semibold">
               The ONE Program Everyone Needs, Even If You Are <span className="text-red-500">Horrible</span> In Coding!
             </p>
-            <div className="flex flex-wrap justify-center min-[1496px]:justify-start gap-2 text-sm sm:text-base font-medium mt-3">
+            <div className="flex flex-wrap justify-center min-[1396px]:justify-start gap-2 text-sm sm:text-base font-medium mt-3">
               <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full">✨ 6 Months Duration</span>
               <span className="bg-green-100 text-green-800 px-2 py-1 rounded-full">🔥 LIVE! Starting Monday</span>
               <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full">⚡ Registration Closes Soon!</span>
@@ -292,7 +292,7 @@ const HeroSection = () => {
             Join the Coding Mafia Batch, a 6-month intensive program designed to take you from zero to job-ready with LIVE expert-led sessions, <span className="underline">800+ DSA problems, full-stack projects, machine learning, and personalized mentorship</span>. No prior experience needed – just 2 hours a day to transform your career!
           </p>
 
-          <div className="mt-7 flex flex-col sm:flex-row justify-center min-[1496px]:justify-start gap-3 w-full">
+          <div className="mt-7 flex flex-col sm:flex-row justify-center min-[1396px]:justify-start gap-3 w-full">
             <a
               href="#courses"
               className="py-3 px-5 inline-flex justify-center items-center gap-x-2 text-base font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700"
@@ -356,7 +356,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Column - Image */}
-        <div className="hidden min-[1496px]:block">
+        <div className="hidden min-[1396px]:block">
         <img 
         src="/team/rishabh_sir.jpg" 
         alt="Coding Mafia Program" 
