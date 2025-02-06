@@ -7,6 +7,7 @@ import PhotoGallery from '@/components/Students';
 import FAQComponent from '@/components/faq';
 import Team from '@/components/team';
 import React from 'react';
+import Benefits from '@/components/Benefits';
 
 const LandingPage = () => {
   return (
@@ -14,11 +15,12 @@ const LandingPage = () => {
       <HeroSection />
       <CompanyMarquee />
       <Feature/>
+      <Benefits/>
       <Courses/>
       <PhotoGallery/>
       <Team/>
       <FAQComponent/>
-      <Modal/>
+
     </div>
   );
 };

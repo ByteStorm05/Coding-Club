@@ -145,7 +145,8 @@ const AppLayout = () => {
       {/* Main Content - Scrolls Behind Navbar */}
       <main className="flex-1 min-h-screen px-4 lg:ml-[220px] lg:px-8 transition-all duration-300 overflow-auto pt-[60px] lg:pt-0">
         <Outlet />
-        <div className="p-10 text-center bg-gray-100 mt-10">Made with 💗</div>
+        <div className="p-10 text-center bg-gray-100 mt-10">Made with 💗 by <span> <a target="_blank" className="text-blue-600" href="https://www.linkedin.com/in/saransh-saluja-787129282">Saransh</a>
+          </span></div>
       </main>
     </div>
   );

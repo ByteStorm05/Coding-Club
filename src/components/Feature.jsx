@@ -1,4 +1,7 @@
+
 import React from 'react';
+import Modal from './Modal';
+
 
 const features = [
     {
@@ -8,10 +11,12 @@ const features = [
 </svg>
       ),
       title: 'Proven Success',
-      description: 'Struggling to land a high-paying job? Join the batch that has helped students secure top offers!',
+      description: `Our students have cracked top packages and secured roles at Microsoft, Google, Walmart, Paytm, and more!`,
       bgColor: 'bg-indigo-50',
       hoverBg: 'group-hover:bg-indigo-600',
-      textColor: 'text-indigo-600 group-hover:text-white'
+      textColor: 'text-indigo-600 group-hover:text-white',
+      link: "Check out our results!",
+      href: "#results"
     },
     {
       svg: (
@@ -24,7 +29,9 @@ const features = [
       description: 'Struggling with coding prep? Our online batch covers coding, DSA, full-stack development, and aptitude—everything you need for placements and internships!',
       bgColor: 'bg-pink-50',
       hoverBg: 'group-hover:bg-pink-600',
-      textColor: 'text-pink-600 group-hover:text-white'
+      textColor: 'text-pink-600 group-hover:text-white',
+      link: "Check out our courses!",
+      href: "#courses"
     },
     {
       svg: (
@@ -34,17 +41,20 @@ const features = [
       description: 'Stuck on concepts? Get 1:1 mentorship from experts who’ve been where you want to be!',
       bgColor: 'bg-teal-50',
       hoverBg: 'group-hover:bg-teal-600',
-      textColor: 'text-teal-600 group-hover:text-white'
+      textColor: 'text-teal-600 group-hover:text-white',
+      link: "Check out our team of experts!",
+      href: "#team"
     },
     {
       svg: (
         <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-indian-rupee"><path d="M6 3h12"/><path d="M6 8h12"/><path d="m6 13 8.5 8"/><path d="M6 13h3"/><path d="M9 13c6.667 0 6.667-10 0-10"/></svg>
       ),
       title: 'Affordable Pricing',
-      description: 'High-value learning at a budget-friendly cost!',
+      description: '🔥 Flat 40% OFF – Limited Seats Only! Unlock high-value learning at a budget-friendly cost! Don\'t miss out—enroll now before seats fill up',
       bgColor: 'bg-orange-50',
       hoverBg: 'group-hover:bg-orange-600',
-      textColor: 'text-orange-600 group-hover:text-white'
+      textColor: 'text-orange-600 group-hover:text-white',
+      showButton: true
     },
     {
       svg: (
@@ -69,6 +79,10 @@ const features = [
 ];
 
 const FeaturesSection = () => {
+
+
+
+
   return (
     <section id="features" className="py-6">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -105,9 +119,22 @@ const FeaturesSection = () => {
       <p className="text-md text-gray-500">
         {feature.description}
       </p>
-      <a href='/' class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 active:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400 dark:focus:text-blue-400 dark:active:text-blue-400">
-  Link
-</a>
+      
+      {/* <a href={`${feature.href}`||'/'} class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 active:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400 dark:focus:text-blue-400 dark:active:text-blue-400">
+        { feature.link||"Link"}
+      </a> */}
+         {feature.showButton ? (
+                <div className="inline-block pt-4">
+                  <Modal />
+                </div>
+              ) : feature.link && feature.href ? (
+                <a 
+                  href={feature.href} 
+                  className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:text-blue-800 focus:outline-none focus:text-blue-800 active:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-400 dark:focus:text-blue-400 dark:active:text-blue-400"
+                >
+                  {feature.link}
+                </a>
+              ) : null}
     </div>
   ))}
 </div>
@@ -118,5 +145,11 @@ const FeaturesSection = () => {
 };
 
 export default FeaturesSection;
+
+
+
+
+
+
 
 
