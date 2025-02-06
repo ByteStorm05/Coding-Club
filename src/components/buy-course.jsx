@@ -39,7 +39,7 @@ const BuyCourse = () => {
                 <div className="mt-5 inline-flex gap-x-2">
                   <button
                     type="button"
-                    className=" px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none transform hover:scale-105 transition-all duration-200"
+                    className=" px-3  inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none transform hover:scale-105 transition-all duration-200"
                   >
                      <Modal/>
                   </button>

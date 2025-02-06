@@ -54,7 +54,7 @@ const features = [
       bgColor: 'bg-orange-50',
       hoverBg: 'group-hover:bg-orange-600',
       textColor: 'text-orange-600 group-hover:text-white',
-      showButton: true
+      showButton: false
     },
     {
       svg: (
