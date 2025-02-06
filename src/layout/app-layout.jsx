@@ -117,10 +117,28 @@ const AppLayout = () => {
       </div>
 
       {/* Navbar (Shows on Small Screens) */}
-      <div className="lg:hidden fixed top-0 left-0 w-full h-[60px] bg-white shadow-md border-b border-gray-300 flex items-center px-4 z-50">
-      <Sidebar />
-        
-      </div>
+      <div className="lg:hidden fixed top-0 left-0 w-full h-[60px] bg-white shadow-md border-b border-gray-300 flex items-center justify-between px-4 z-50">
+  {/* Left Side - Sidebar */}
+  <div className="flex items-center">
+    <Sidebar />
+  </div>
+
+  {/* Right Side - Buttons */}
+  <div className="flex gap-2">
+    <button 
+      className="py-2 px-3 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 
+                 transition-all duration-800 hover:scale-105 hover:shadow-lg animate-pulse"
+    >
+      Buy Now
+    </button>
+    <button 
+      className="py-2 px-3 bg-gray-100 text-gray-800 text-sm font-medium rounded-lg
+                 hover:bg-gray-200 transition-all duration-300"
+    >
+      Request Demo
+    </button>
+  </div>
+</div>
 
       {/* Main Content - Scrolls Behind Navbar */}
       <main className="flex-1 min-h-screen px-4 lg:ml-[220px] lg:px-8 transition-all duration-300 overflow-auto pt-[60px] lg:pt-0">

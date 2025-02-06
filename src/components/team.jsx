@@ -60,16 +60,19 @@ const team = () => {
   ]
 
   return (
-      <section className="py-14">
+      <section className="py-14 mt-[-100px]">
           <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-              <div className="max-w-xl">
-                  <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                      Meet our team of Engineers, designers, and product managers.
-                  </h3>
-                  <p className="text-gray-600 mt-3">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy.
-                  </p>
-              </div>
+          <div className="mb-14 text-center">
+          <span className="py-1 px-4 bg-gray-200 rounded-full text-xs font-medium text-black text-center">
+            Team
+          </span>
+          <h2 className="text-4xl text-center font-bold text-gray-900 py-5">
+            Why Coding Club is the <span className='text-green-500 underline'>Ultimate Choice!</span>
+          </h2>
+          <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
+            Provides advanced features to support your learning journey.
+          </p>
+        </div>
               <div className="mt-12">
                   <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
                       {

@@ -182,7 +182,7 @@ const Modal = ({ isOpen, onClose, item }) => {
       { "title": "Binary Search Trees", "desc": "BST operations and properties" }
     ],
   
-    "Module 3: Advanced Data Structures and Algorithms": [
+    "Module 3: Advanced DSA": [
       { "title": "Tries", "desc": "Efficient string storage and search" },
       { "title": "Graphs", "desc": "Graph representation and algorithms" },
       { "title": "BFS & DFS", "desc": "Graph traversal techniques" },
@@ -216,7 +216,7 @@ const Modal = ({ isOpen, onClose, item }) => {
       { "title": "NLP & Language Models", "desc": "Processing text data" }
     ],
   
-    "Module 6: Java (Core + Advanced)": [
+    "Module 6: Java Core + Advanced": [
       { "title": "Introduction to Java", "desc": "Setting up Java environment" },
       { "title": "Operators & Loops", "desc": "Understanding loops and conditions" },
       { "title": "Data Structures", "desc": "Lists, arrays, and linked lists" },
@@ -304,7 +304,15 @@ const Courses = () => {
       color: "indigo",
       heading: "Module 2: Data Structures and Algorithms",
       duration: "6 weeks",
-      description: "Practice on Codechef, Leetcode, Interviewbit with fundamental DSA concepts"
+      description: "We will keep learning and practicing problems till end of the course to reach target of 800+ problems practice on top platforms like Codechef, Leetcode, InterviewBit, Spoj Continued in Module 3."
+    },
+   
+    {
+      icon: <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>,
+      color: "blue",
+      heading: "Module 3: Advanced DSA",
+      duration: "8 weeks",
+      description: "Advanced concepts and practice on Leetcode, SPOJ, CSES Platforms"
     },
     {
       icon: <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>,
@@ -312,14 +320,7 @@ const Courses = () => {
       heading: "CHECKPOINT 1: DSA Foundation",
       badge: "Milestone",
       duration: "Assessment",
-      description: "Complete 300+ DSA problems and pass assessment"
-    },
-    {
-      icon: <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>,
-      color: "blue",
-      heading: "Module 3: Advanced DSA",
-      duration: "8 weeks",
-      description: "Advanced concepts and practice on Leetcode, SPOJ, CSES Platforms"
+      description: "After completing 800+ problems practice on top platforms like Codechef, Leetcode, InterviewBit, and Spoj, you'll be able to crack any online assessment 🔥"
     },
     {
       icon: <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>,
@@ -390,11 +391,18 @@ const Courses = () => {
   ];
 
   return (
-    <div className="px-8 sm:px-16 py-12">
-      <h2 className="mb-16 text-center font-bold text-gray-900 py-8 text-4xl sm:text-2xl md:text-3xl lg:text-5xl">
-        We'll help you at every step to <br />
-        <span className="text-green-500 underline">Guarantee Success!</span>
-      </h2>
+    <div className="px-8 sm:px-16 mt-[-50px]">
+       <div className="mb-14 text-center">
+          <span className="py-1 px-4 bg-red-100 rounded-full text-xs font-medium text-red-600 text-center">
+            Courses
+          </span>
+          <h2 className="text-4xl text-center font-bold text-gray-900 py-5">
+          Step-by-Step Guidance to <span className='text-green-500 '>Guaranteed Success!!</span>
+          </h2>
+          <p className="text-lg font-normal text-gray-700 max-w-md md:max-w-2xl mx-auto">
+          From foundational coding to advanced DSA, full-stack development, and interview prep—we mentor you at every stage to secure top placements in leading tech companies!
+          </p>
+        </div>
 
       <ol className="relative border-s-4 border-gray-200">                  
         {timelineItems.map((item, index) => (
@@ -424,7 +432,7 @@ const Courses = () => {
                 <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
                 <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
               </svg>
-              View Details
+              View Curriculum 
             </button>
           </li>
         ))}

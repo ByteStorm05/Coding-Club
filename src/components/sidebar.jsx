@@ -3,6 +3,7 @@ import { Menu, ChevronRight, ChevronDown, Home, Users, Calendar, FileText, User 
 import { CircleHelp } from "lucide-react";
 import { BookOpenText } from "lucide-react";
 import { CircleCheckBig } from "lucide-react";
+import BuyCourse from "@/components/buy-course";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,9 @@ const Sidebar = () => {
       </div>
 
       {/* Sidebar */}
-      <div className={`fixed inset-y-0 left-0 w-[260px] h-full bg-white dark:bg-neutral-800 shadow-lg transition-transform  ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 lg:block z-50`}>
+      {/* <div className={`fixed inset-y-0 left-0 w-[260px] h-full bg-white dark:bg-neutral-800 shadow-lg transition-transform  ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 lg:block z-50`}> */}
+      <div className={`fixed inset-y-0 left-0 w-[260px] h-full bg-white dark:bg-neutral-800 shadow-lg transition-transform ${isOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0 lg:block z-50 overflow-y-auto`}>
+
         <div className="px-6 pt-4 flex items-center justify-between ">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img
@@ -90,6 +93,7 @@ const Sidebar = () => {
             FAQ's
           </a>
         </nav>
+       <BuyCourse/>
       </div>
     </>
   );
