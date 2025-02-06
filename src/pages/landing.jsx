@@ -8,6 +8,7 @@ import FAQComponent from '@/components/faq';
 import Team from '@/components/team';
 import React from 'react';
 import Benefits from '@/components/Benefits';
+import BatchReviews from '@/components/BatchVideo';
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
       <Benefits/>
       <Courses/>
       <PhotoGallery/>
+      <BatchReviews/>
       <Team/>
       <FAQComponent/>
 
