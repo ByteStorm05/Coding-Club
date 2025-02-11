@@ -91,7 +91,7 @@ const CompanyMarquee = () => {
         `}
       </style>
       
-      <div className="marquee-container">
+      <div className="marquee-container mt-[-50px]">
         <div className="marquee-content">
           {/* First set of logos */}
           {companyLogos.map((logo, index) => (

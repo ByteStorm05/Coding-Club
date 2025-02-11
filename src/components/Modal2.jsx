@@ -3,7 +3,7 @@ import { Transition, Dialog } from '@headlessui/react';
 
 const DemoModal = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const phoneNumber = "+919987774837"; // Indian number with country code
+  const phoneNumber = "+917303013866"; // Indian number with country code
 
   return (
     <>
@@ -88,7 +88,7 @@ const DemoModal = () => {
                       href={`tel:${phoneNumber}`}
                       className="w-full block text-center py-3 px-4 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
                     >
-                      📞 Call Now: +91 9987774837
+                      📞 Call Now: +91 7303013866
                     </a>
 
                     {/* WhatsApp Button */}
@@ -98,7 +98,7 @@ const DemoModal = () => {
                       rel="noopener noreferrer"
                       className="w-full block text-center py-3 px-4 rounded-lg bg-green-600 text-white hover:bg-green-700 transition-colors"
                     >
-                      💬 WhatsApp Now: +91 9987774837
+                      💬 WhatsApp Now: +91 7303013866
                     </a>
                   </div>
                 </Dialog.Panel>

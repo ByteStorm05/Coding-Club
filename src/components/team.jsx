@@ -12,15 +12,15 @@ const team = () => {
           twitter: "javascript:void(0)",
           github: "javascript:void(0)"
       },
-      {
-          avatar: "/team/team2.jpg",
-          name: "Srishti Jain",
-          title: "President, Instructora",
-          desc: "MBA graduate from Biyani College, Jaipur, specializing in aptitude, HR interviews, resume formatting, and communication skills. Passionate about helping individuals excel in their careers, whether you're a beginner or a professional looking to upskill.",
-          linkedin: "https://www.linkedin.com/in/srishti-jain-2502ab242",
-          twitter: "javascript:void(0)",
-          github: "javascript:void(0)"
-      },
+    //   {
+    //       avatar: "/team/team2.jpg",
+    //       name: "Srishti Jain",
+    //       title: "President, Instructora",
+    //       desc: "MBA graduate from Biyani College, Jaipur, specializing in aptitude, HR interviews, resume formatting, and communication skills. Passionate about helping individuals excel in their careers, whether you're a beginner or a professional looking to upskill.",
+    //       linkedin: "https://www.linkedin.com/in/srishti-jain-2502ab242",
+    //       twitter: "javascript:void(0)",
+    //       github: "javascript:void(0)"
+    //   },
       {
           avatar: "/team/team3.jpg",
           name: "Abhishek Gupta",
