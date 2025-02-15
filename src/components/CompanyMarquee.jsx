@@ -50,7 +50,6 @@ import React from "react";
 const CompanyMarquee = () => {
   const companyLogos = [
     "uber.png",
-    "netflix.png",
     "microsoft.webp",
     "meta.svg",
     "ibm.png",

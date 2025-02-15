@@ -91,6 +91,18 @@ const Modal = () => {
                         </svg>
                         <span>5 FREE Mock Interviews (Gift)</span>
                       </div>
+                      <div className="flex items-center gap-2">
+                        <svg className="h-5 w-5 text-green-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                          <path d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>Placement support till you get your first Job!</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shirt"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>
+  <span className="font-medium">Exclusive! Get a hoodie after you buy our course! <span><a href='https://drive.google.com/file/d/122jf3h_AmTxMLbV-oAggkMdxZPDqbJxw/view?usp=sharing' target='_blank' className='text-blue-600 underline'> Click here to preview</a></span></span>
+</div>
+
                     </div>
 
                     <div className="mt-4 space-y-2">

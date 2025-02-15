@@ -481,12 +481,14 @@ const HeroSection = () => {
               <div className="flex flex-wrap justify-center min-[1396px]:justify-start gap-2 text-sm sm:text-base font-medium mt-3">
                 <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full shadow-sm">✨ 6 Months Duration</span>
                 <span className="bg-green-100 text-green-800 px-2 py-1 rounded-full shadow-sm">🔥 LIVE! Starting Monday</span>
+                <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full shadow-sm">💼 Placement support till first job!</span>
                 <span className="bg-red-100 text-red-800 px-2 py-1 rounded-full shadow-sm">⚡ Registration Closes Soon!</span>
+
               </div>
             </div>
             
             <p className="mt-8 text-base sm:text-lg text-gray-800 dark:text-neutral-400">
-              Join the Coding Mafia Batch, a 6-month intensive program designed to take you from zero to job-ready with LIVE expert-led sessions, <span className="underline decoration-blue-500 decoration-2">800+ DSA problems, full-stack projects, machine learning, and personalized mentorship</span>. No prior experience needed – just 2 hours a day to transform your career!
+              Join the Coding Mafia Batch, a 6-month intensive program designed to take you from zero to job-ready with LIVE expert-led sessions, <span className="underline decoration-blue-500 decoration-2"><a href="#courses">800+ DSA problems, full-stack projects, machine learning, and personalized mentorship</a></span>. No prior experience needed – just 2 hours a day to transform your career!
             </p>
 
             <div className="mt-7 flex flex-col sm:flex-row justify-center min-[1396px]:justify-start gap-3 w-full">
